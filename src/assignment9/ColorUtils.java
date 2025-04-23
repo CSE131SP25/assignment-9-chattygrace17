@@ -20,4 +20,17 @@ public class ColorUtils {
 	public static Color transparentColor() {
 		return transparent(solidColor());
 	}
+
+	// ✅ Added helpers for specific colors
+	public static Color getGreen() {
+		return new Color(0, 200, 0);
+	}
+
+	public static Color getRed() {
+		return new Color(200, 0, 0);
+	}
+
+	public static Color getBlue() {
+		return new Color(0, 0, 200);
+	}
 }
